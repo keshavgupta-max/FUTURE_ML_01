@@ -1,0 +1,15 @@
+paths:
+  raw_data: "C:/Users/KESHAV/OneDrive/Documents/superstore.csv"
+
+  processed_data: "data/processed_weekly_sales.csv"
+
+columns:
+  date: "Order Date"
+  target: "Sales"
+  features:
+    - "Category"
+    - "Region"
+
+pipeline:
+  resample_cadence: "W"      
+  test_size_weeks: 12
