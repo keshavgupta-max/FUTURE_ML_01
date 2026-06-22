@@ -1,6 +1,5 @@
 paths:
-  raw_data: "C:/Users/KESHAV/OneDrive/Documents/superstore.csv"
-
+  raw_data: "data/superstore.csv.csv"
   processed_data: "data/processed_weekly_sales.csv"
 
 columns:
